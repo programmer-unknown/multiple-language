@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.app {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+.language-wrapper {
+  position: relative;
+}
+.language-options {
+  position: absolute;
+  top: 3em;
+  background-color: #fff;
+  border-radius: 0.4em;
+  padding: 0.4em 0.8em;
+  border: 1px solid lightgray;
+}
+.language-options > * {
+  cursor: pointer;
+}
+button {
+  border: 1px solid #007fff;
+  padding: 0.4em 0.8em;
+  font-size: 1rem;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 0.4em;
+}
+section {
+  display: flex;
+  justify-content: center;
+}
